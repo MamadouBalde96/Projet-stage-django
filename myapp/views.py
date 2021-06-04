@@ -17,7 +17,7 @@ def student(request):
             sujet = request.POST['sujet']
             courriel = request.POST['email']
             template = render_to_string('email_template.html', {'prenom': request.POST['prénom'], 'nom': request.POST['nom'], 'promotion': request.POST['niveau'] ,'dept': request.POST['département']})
-            send_mail(sujet, message, courriel, ['bal2massaliou@gmail.com'], fail_silently=False)
+            send_mail(sujet, message, courriel, ['votre e-mail de reception'], fail_silently=False)
             email = EmailMessage(
                 sujet,
                 template,

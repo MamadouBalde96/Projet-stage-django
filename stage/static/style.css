@@ -1,0 +1,48 @@
+.classTitle{
+    color: white;
+    background-color: #0975C3;
+    border-radius: 7px;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    line-height: 150%;
+}
+
+
+.formulaire{
+    margin-right:400px;
+    margin-left:400px;    
+    background-color: rgb(110, 173, 236);
+    padding: 5rem;
+    border-radius: 10px;
+    
+}
+
+
+.boite{
+    margin-right:700px;
+    margin-left:700px;  
+    background-color: rgb(228, 107, 107);
+    outline: 2px solid darkred;
+  }
+
+.tag{
+    padding: 1px;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: lightslategrey;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+ 
+
+
